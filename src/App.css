@@ -1,0 +1,65 @@
+body {
+  margin-top: 50px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.timer-title {
+  font-size: 3rem;
+  text-align: center;
+  color: rgb(255, 149, 246);
+  text-shadow: 14px 12px 6px rgb(69, 1, 73);
+}
+
+.card {
+  width: 500px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.timer-display {
+  font-family: "Courier New", Courier, monospace;
+  height: 100px;
+  font-size: 3rem; /* Gör siffrorna större */
+  font-weight: bolder;
+  color: #333;
+  padding: 20px;
+  background-color: #e0e0e0; /* Grå bakgrund */
+  border-radius: 10px;
+  display: flex;
+  align-items: center; /* Vertikalt centrera siffrorna */
+  justify-content: center; /* Horisontellt centrera siffrorna */
+}
+
+.timer-buttons button {
+  font-family: "Courier New", Courier, monospace;
+  width: 150px;
+  height: 75px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #ff9cff;
+  box-shadow: 4px 4px 8px rgb(71, 16, 85);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px 8px;
+  border: none;
+}
+
+.timer-status {
+  font-size: 1.5rem;
+  color: #a51fac;
+}
+
+.timer-buttons button:hover {
+  background-color: #6d397a;
+}
